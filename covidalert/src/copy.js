@@ -197,6 +197,6 @@ export default {
     pushNotifications: 'プッシュ通知を有効にする',
     privacy: 'あなたのプライバシーにまもるは何ですか',
     support: 'このアプリをどのようにサポートできますか',
-    volunteers: 'ボランティアによって建てられた',
+    volunteers: 'Built by volunteers at',
   },
 };
