@@ -28,7 +28,7 @@ export default class extends Component {
     const {publicKey, privateKey} = generateRandomKeys(1024);
 
     const {languageCode} = getLocales()[0];
-    const supportedLanguages = ['en', 'es', 'it', 'pt', 'fr', 'ru', 'ar', 'zh', 'hi'];
+    const supportedLanguages = ['en', 'es', 'it', 'pt', 'fr', 'ru', 'ar', 'zh', 'hi', 'jp'];
     const finalLanguageCode =
       supportedLanguages.includes(languageCode) &&
       copy.hasOwnProperty(languageCode)
